@@ -1,9 +1,12 @@
 ---
 layout: home
-title: "Welcome to My Custom Home Page"
-permalink: /
+title: Home
 ---
 
-## Hello, World!
+{% assign non_power_posts = site.posts | where_exp: "post", "post.categories contains 'PowerMeter' == false" %}
 
-Welcome to my powered website! Customize this section as needed.
+{% for post in non_power_posts %}
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.date | date: "%B %d, %Y" }}</p>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
