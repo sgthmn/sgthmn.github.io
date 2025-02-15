@@ -11,4 +11,4 @@ order: 1
   {% include posts.html posts=power_posts %}
 {% else %}
   <p class="text-center">*No posts yet!*</p>
-{% endif %
+{% endif %}
