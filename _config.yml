@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: sgthmn # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -146,7 +146,8 @@ pwa:
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
-
+  cache_version: 3
+  
 paginate: 10
 
 # The base URL of your site
