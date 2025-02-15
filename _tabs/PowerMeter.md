@@ -1,8 +1,8 @@
 ---
-layout: tab
+layout: page
 title: "PowerMeter"
 icon: fas fa-bolt  # Change to another FontAwesome icon if you want
-order: 3
+order: 1
 ---
 
 ## 🚴‍♂️ PowerMeter Project Posts
