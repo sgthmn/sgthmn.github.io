@@ -222,8 +222,7 @@ exclude:
   - rollup.config.js
   - "package*.json"
 
-category_archive: false
-#jekyll-archives:
+# jekyll-archives:
 #  enabled: [categories, tags]
 #  layouts:
 #    category: category
