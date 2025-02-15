@@ -170,10 +170,6 @@ kramdown:
 
 collections:
   tabs:
-    - name: "PowerMeter"
-      url: /PowerMeter/
-      icon: fas fa-bolt 
-
       output: true
       sort_by: order
 
@@ -222,11 +218,11 @@ exclude:
   - rollup.config.js
   - "package*.json"
 
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+#jekyll-archives:
+#  enabled: [categories, tags]
+#  layouts:
+#    category: category
+#    tag: tag
+#  permalinks:
+#    tag: /tags/:name/
+#    category: /categories/:name/
