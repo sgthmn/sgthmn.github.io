@@ -9,5 +9,5 @@ pagination: false
 {% assign power_posts = site.posts | where_exp: "post", "post.categories contains 'PowerMeter'" %}
 
 {% for post in power_posts %}
-  {% include post-card.html post=post %}
+  {% include post-item.html post=post %}
 {% endfor %}
