@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "PowerMeter"
 icon: fas fa-bolt
 order: 1
