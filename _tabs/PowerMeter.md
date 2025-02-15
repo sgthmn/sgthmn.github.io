@@ -25,21 +25,3 @@ order: 1
   {% endif %}
 </div>
 
-<style>
-  .post-list { padding: 20px; }
-  .post-card {
-    border: 1px solid #ccc;
-    padding: 15px;
-    border-radius: 8px;
-    background: #fff;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  .post-card h3 {
-    margin-bottom: 5px;
-  }
-  .post-meta {
-    font-size: 0.9em;
-    color: #666;
-  }
-</style>
