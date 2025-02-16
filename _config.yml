@@ -16,7 +16,7 @@ timezone: Asia/Singapore
 
 title: sgthmn # the main title
 
-tagline: A loosely structured guide primarily focused around devolepment of the PowerMeter # it will display as the subtitle
+tagline: A loosely structured blog primarily focused around development of the PowerMeter # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   ##
@@ -217,6 +217,9 @@ exclude:
   - purgecss.js
   - rollup.config.js
   - "package*.json"
+
+mermaid:
+  enabled: true
 
 #jekyll-archives:
 #  enabled: []
