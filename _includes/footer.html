@@ -10,7 +10,22 @@
   <p>
     {{- '©' }}
     <time>{{ 'now' | date: '%Y' }}</time>
-
   </p>
-
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (document.querySelector(".mermaid")) {
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true });
+        } else {
+          var script = document.createElement("script");
+          script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
+          script.onload = function () {
+            mermaid.initialize({ startOnLoad: true });
+          };
+          document.body.appendChild(script);
+        }
+      }
+    });
+  </script>
+  
 </footer>
