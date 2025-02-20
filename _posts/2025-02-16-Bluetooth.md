@@ -24,7 +24,7 @@ The efficacy will be revealed next post.
 
 _Note this website only supports browsers with Blueooth Webkit support: Chrome or Edge. On an iPad/iPhone I reccomend using the custom browser "Bluefy". It's free._
 
-[Web Graph](https://webble-8a6e1a.gitlab.io/)
+<a href="https://webble-8a6e1a.gitlab.io/" class="webble">Web Graph
 
 <h2>A2#Arduino Code for BLE advertising</h2>
 
@@ -118,3 +118,21 @@ void loop() {
 }
 
 ```
+
+
+<style>
+ .webble {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 15px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+  .webble:hover {
+    background-color: #0056b3;
+} 
+</style>
