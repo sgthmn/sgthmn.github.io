@@ -7,9 +7,12 @@ categories:
 published: true
 homepage: false
 ---
+
 ### Establishing Bluetooth using Arduino Ble 33 Nano.
 
-Prototyping bluetooth code was devoleped as an webapp for ease of code and access. Webpage is linked below. After uploading code#A2 to arduino, and rebooting it, it should pop up under "Arduino".
+Prototyping bluetooth code was devoleped as an webapp for ease of code and access. Webpage is linked below. After uploading code#A2 to the Arduino, and rebooting it, it should pop up under "Arduino".
+
+This is the first step of introducing mobility to the PowerMeter.
 
 _Note this website only supports browsers with Blueooth Webkit support: Chrome or Edge. On an iPad/iPhone I reccomend using the custom browser "Bluefy". It's free._
 
@@ -17,7 +20,7 @@ _Note this website only supports browsers with Blueooth Webkit support: Chrome o
 
 [A2#Arduino Code for BLE advertising](https://webble-8a6e1a.gitlab.io/)
 
-```javascript
+```python
 #include <ArduinoBLE.h>
 #include "HX711.h"
 
