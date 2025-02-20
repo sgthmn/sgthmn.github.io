@@ -7,12 +7,19 @@ categories:
 published: true
 homepage: false
 ---
-
 ### Establishing Bluetooth using Arduino Ble 33 Nano.
 
 Prototyping bluetooth code was devoleped as an webapp for ease of code and access. Webpage is linked below. After uploading code#A2 to the Arduino, and rebooting it, it should pop up under "Arduino".
 
-This is the first step of introducing mobility to the PowerMeter.
+This is the first step of introducing mobility to the PowerMeter. Adding a battery would be the next, however I'm currently missing some modules that are required for charging and discharging Li-po batteries.
+
+Lithium Polymer batteries are particularly delicate and need a a CC/CV chip to prevent overcharging (above 4.2V) and to supply a constant current.
+
+I'm using a 500maH lipo with a TP4056 module which would limit current to 200mA.
+
+Since Li-po batteries also do not supply voltage at a constant rate while discharging, a buck boost converter is needed. I've ordered a couple XL63802 modules off taobao.
+
+The efficacy will be revealed next post.
 
 _Note this website only supports browsers with Blueooth Webkit support: Chrome or Edge. On an iPad/iPhone I reccomend using the custom browser "Bluefy". It's free._
 
