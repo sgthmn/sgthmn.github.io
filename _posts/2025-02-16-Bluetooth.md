@@ -7,13 +7,16 @@ categories:
 published: true
 homepage: false
 ---
-<h3>Establishing Bluetooth using Arduino Ble 33 nano.</h3>\
-Prototyping bluetooth code was devoleped as an webapp for ease of code and access. Webpage is linked below. After uploading code#A2 to arduino, and rebooting it, it should pop up under "Arduino".\\
-Note this website only supports browsers supported Blueooth Webkit: Chrome or Edge. On an iphone I reccomend using the custom browser "Bluefy". It's free.
+### Establishing Bluetooth using Arduino Ble 33 Nano.
 
-<a href="https://webble-8a6e1a.gitlab.io/" class="webble">Web Graph
+Prototyping bluetooth code was devoleped as an webapp for ease of code and access. Webpage is linked below. After uploading code#A2 to arduino, and rebooting it, it should pop up under "Arduino".
 
-**A2#Arduino Code for BLE advertising**
+_Note this website only supports browsers with Blueooth Webkit support: Chrome or Edge. On an iPad/iPhone I reccomend using the custom browser "Bluefy". It's free._
+
+[Web Graph](https://webble-8a6e1a.gitlab.io/)
+
+[A2#Arduino Code for BLE advertising](https://webble-8a6e1a.gitlab.io/)
+
 ```javascript
 #include <ArduinoBLE.h>
 #include "HX711.h"
@@ -104,20 +107,3 @@ void loop() {
 }
 
 ```
-
-<style>
- .webble {
-    display: inline-block;
-    padding: 7px 14px;
-    font-size: 15px;
-    color: white;
-    background-color: #007bff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-  .webble:hover {
-    background-color: #0056b3;
-} 
-</style>
